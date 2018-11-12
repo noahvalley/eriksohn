@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	box-sizing: border-box;
+	height: 40px;
+	padding: 4px 0 10px 5px;
+	margin: 0;
+}
+.data{
+	display: inline-block;
+	float: right;
+	margin-right: calc(100vw - 1000px);
+}
+h3{
+	box-sizing: border-box;
+	height: 30px;
+	padding: 4px 0 10px 5px;
+	margin: 0;
+}
+#thecanvas{
+	box-sizing: border-box;
+	border: 10px solid #ddd;
+	float: left;
+}
+#highscorediv{
+	display: block;
+	width: 240px;
+	overflow: hidden;
+	padding: 0 20px;
+	margin: 0;
+}
+#highscore{
+	padding-left: 20px;
+}
+#highscore li{
+	list-style: decimal;
+	padding: 0;
+	margin: 0 0 3px 0;
+}
+#highscore li span:first-child{
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+}
